@@ -1,0 +1,102 @@
+body{
+    background-color: #cfe1b9;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+
+a{
+    
+    font-size: 16px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 255, 255, 0.817);
+    margin-block-start: 0em;
+    margin-inline-end: 0em;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+
+ h1 {
+     font-family: 'Ubuntu',sans-serif;
+}
+
+.header h2 {
+    font-family: 'Ubuntu',sans-serif;
+     text-align: center; 
+     font-size: 50px;
+}
+
+.timer {
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 20px;
+    background: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.timer__part {
+    font-size: 50px;
+    font-weight: bold;
+}
+.timer__btn {
+    width: 55px;
+    height: 55px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: hsla(273, 42%, 74%, 0.883);
+    cursor: pointer;
+}
+
+.reminder{
+     font-family: 'Ubuntu',sans-serif;
+    position: absolute;
+     top: 38%;
+    left: 43%;
+    font-size: 25px;
+}
+
+div {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 36%;
+    top: 50%;
+}
+
+.timer__btn--start {
+    background: #7894cf;
+}
+.timer__btn--stop {
+    background: #e38087;
+}
+button{
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #b8f2e6;
+    color: #cbdfbd;
+}
+
+
+
